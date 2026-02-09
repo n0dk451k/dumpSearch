@@ -3,7 +3,7 @@
 
 Использование:
   ./search <file> [options]
-
+```
 Поиск:
   --utf8 <string>
   --utf16le <string>
@@ -17,3 +17,4 @@
   --offset-add <N>
   --progress <seconds>
   --help
+```
