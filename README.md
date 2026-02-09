@@ -1,9 +1,9 @@
 # dumpSearch
 поиск сигнатур в бинарных дампах 
-
+```
 Использование:
   ./search <file> [options]
-```
+
 Поиск:
   --utf8 <string>
   --utf16le <string>
