@@ -1,5 +1,9 @@
 # dumpSearch
 поиск сигнатур в бинарных дампах 
+
+<img width="1546" height="389" alt="image" src="https://github.com/user-attachments/assets/d9072d80-efc7-411f-bb19-35c19c1d26b2" />
+
+
 ```
 Использование:
   ./search <file> [options]
