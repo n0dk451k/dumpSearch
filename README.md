@@ -1,5 +1,9 @@
 # dumpSearch
 поиск сигнатур в бинарных дампах 
+
+<img width="1546" height="389" alt="image" src="https://github.com/user-attachments/assets/d9072d80-efc7-411f-bb19-35c19c1d26b2" />
+
+
 ```
 Использование:
   ./search <file> [options]
@@ -20,9 +24,9 @@
 ```
 
 ```
-./search ./dump.bin --utf8 "substr"
-./search ./dump.bin --utf16l "substr" --strings-len 1024 --strings-len 100 --strings "-e S"
-./search ./dump.bin --utf16b "substr" --offset-add -32 --xxd "-c 32 -l 256"
-./search ./pagefile.sys --hex "deadbeef" --xxd "-c 32 -l 64"
-./search ./dump.bin --utf8 "substr" --strings-len 1024 --offset-add -32 --strings-len 100 --strings "-e S" --xxd "-c 32 -l 256"    
+./search ./dump --utf8 "substr"
+./search ./dump --utf16l "substr" --strings-len 1024 --strings-len 100 --strings "-e S"
+./search ./dump --utf16b "substr" --offset-add -32 --xxd "-c 32 -l 256"
+./search ./dump --hex "deadbeef" --xxd "-c 32 -l 64"
+./search ./dump --utf8 "substr" --strings-len 1024 --offset-add -32 --strings-len 100 --strings "-e S" --xxd "-c 32 -l 256"    
 ```
